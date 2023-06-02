@@ -230,5 +230,107 @@ blockquote {
   border: 1px solid #804a6a;
   color: #804a6a;
 }
+/*______________________________contact section_______________________*/
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  margin-top: 40px;
+}
+.contact-title {
+  font-size: 35px;
+  color: #f89679;
+  font-weight: bold;
+}
+.contact-section a {
+  color: #100c31;
+}
 
+.contact-section a:hover {
+  color: #804a6a;
+}
+.contact-container {
+  display: flex;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 60px 40px;
+  margin: 150px;
+}
+.social-media-links-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.social-media-icon {
+  color: #804a6a;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #eed9be;
+  margin: 10px;
+}
+
+.social-media-icon:hover {
+  color: #faeede;
+  background-color: #804a6a;
+  border: solid 2px #eed9be;
+}
+
+.contact-section ul:hover {
+  color: #804a6a;
+}
+
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 15px;
+}
+
+.input-name-lastname-container {
+  display: flex;
+  width: 100%;
+}
+
+.input-name-container,
+.input-lastname-container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px;
+}
+
+#input-submit {
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+  color: white;
+}
+
+#message {
+  height: 150px;
+  border-radius: 10px;
+  padding: 10px;
+}
 
