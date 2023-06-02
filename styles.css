@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  color: #100c31;
+  background-color: #eed9be;
+  box-shadow: -16px -13px 41px -7px rgba(0, 0, 0, 0.49) inset;
+  -webkit-box-shadow: -16px -13px 41px -7px rgba(0, 0, 0, 0.49) inset;
+  -moz-box-shadow: -16px -13px 41px -7px rgba(0, 0, 0, 0.49) inset;
+}
+/*────────────────────────────────────Header────────────────────────────────*/
+header {
+  width: 100%;
+  background-color: #804a6a;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.nav {
+  margin-right: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list-item {
+  margin: 0px 20px;
+}
+
+nav a:hover {
+  color: #f8aa93;
+}
+
+header a:focus,
+.button:focus,
+.project-section a:focus,
+.contact-section a:focus,
+input:focus,
+textarea:focus,
+footer a:focus {
+  box-shadow: 0px 0px 9px 3px #f9977b;
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+}
+
+.menu-icon {
+  color: white;
+  display: none;
+}
+
+/*────────────────────────────────────Presentation────────────────────────────────*/
+.flex-container-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.aboutme-section {
+  display: flex;
+  margin-top: 50px;
+  padding: 80px 0px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.aboutme-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.title {
+  text-align: center;
+  margin-top: 100px;
+  color: #f89679;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.aboutme-section-title {
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  color: #804a6a;
+  font-weight: bolder;
+}
+.button {
+  background-color: #f9ab94;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 20px;
+  width: 40%;
+  text-align: center;
+}
+
+.button:hover {
+  color: white;
+  background-color: #fcb59f;
+}
+
+.aboutme-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+/*────────────────────────────────────Skills section────────────────────────────────*/
+.skill-section {
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.skill-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%; 
+}
+.skill-text p {
+  text-align: center;
+  margin: 20px;
+}
+
+.skill-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 60px;
+  width: 80%;
+}
+
+.skill-card {
+  width: 250px;
+  margin: 15px;
+  padding: 60px;
+  border: 2px solid #f89679;
+  border-radius: 10px;
+}
+
+.skill-card-icon {
+  font-size: 80px;
+  color: #804a6a;
+}
+
+.card-description {
+  font-weight: bold;
+  text-align: center;
+}
+.skill-card:hover {
+  border: 2px solid #804a6a;
+  color: #804a6a;
+}
+
+/*────────────────────────────────────Quote section────────────────────────────────*/
+.quote-section {
+  padding: 100px;
+  margin-top: 60px;
+  background-color: #7e4b6a;
+  /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(images/patron-costura-botanico-floral-abstracto-flores-color-blanco-sobre-fondo-brillante-flor-cerezo_651861-429.jpg);*/
+  color: white;
+  align-items: center;
+}
+.fa-quote-right {
+  font-size: 90px;
+  color: white;
+}
+
+blockquote {
+  padding: 50px;
+  color: white;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+  width: 80%;
+}
+/*────────────────────────────────────Projects section────────────────────────────────*/
+.project-section {
+  align-items: center;
+  margin: 0px 80px;
+}
+
+.project-text {
+  width: 50%;
+}
+.project-text p {
+  text-align: center;
+  margin: 30px;
+}
+.project-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.project-card {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  color: #100c31;
+  border-radius: 10px;
+  align-items: center;
+  border: 1px solid #f89679;
+  margin: 10px 0px;
+}
+
+.project-card-img {
+  width: 250px;
+  height: 200px;
+}
+
+.project-card:hover {
+  border: 1px solid #804a6a;
+  color: #804a6a;
+}
+
+
