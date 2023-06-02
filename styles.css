@@ -334,3 +334,24 @@ input {
   padding: 10px;
 }
 
+/*────────────────────────────────────footer────────────────────────────────*/
+footer {
+  background-color: #804a6a;
+  padding: 60px;
+  align-items: center;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+}
+.footer-list-item {
+  margin: 0 15px;
+}
+
+.footer-list {
+  margin: 15px;
+}
+footer p {
+  color: white;
+  text-align: center;
+}
