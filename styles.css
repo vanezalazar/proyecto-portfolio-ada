@@ -238,9 +238,12 @@ blockquote {
   margin-top: 40px;
 }
 .contact-title {
-  font-size: 35px;
+  font-size: 40px;
   color: #f89679;
   font-weight: bold;
+}
+.contact-section-text {
+  margin-top: 15px;
 }
 .contact-section a {
   color: #100c31;
@@ -254,18 +257,22 @@ blockquote {
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  padding: 60px 40px;
-  margin: 150px;
+    padding: 60px;
+    margin: 50px;
+    
 }
 .social-media-links-container {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
 }
 
 .social-media-links {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 30px;
 }
 
 .social-media-icon {
@@ -291,7 +298,8 @@ blockquote {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
+  width: 50%;
 }
 
 .form {
@@ -303,7 +311,6 @@ blockquote {
 
 .input-name-lastname-container {
   display: flex;
-  width: 100%;
 }
 
 .input-name-container,
