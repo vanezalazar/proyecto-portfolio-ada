@@ -168,7 +168,7 @@ footer a:focus {
 
 /*────────────────────────────────────Quote section────────────────────────────────*/
 .quote-section {
-  padding: 100px;
+  padding: 80px;
   margin-top: 60px;
   background-color: #7e4b6a;
   /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -182,10 +182,9 @@ footer a:focus {
 }
 
 blockquote {
-  padding: 50px;
+  padding: 40px;
   color: white;
   font-style: italic;
-  font-weight: bolder;
   font-size: 18px;
   text-align: center;
   width: 80%;
@@ -355,3 +354,4 @@ footer p {
   color: white;
   text-align: center;
 }
+
