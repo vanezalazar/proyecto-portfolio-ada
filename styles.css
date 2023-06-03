@@ -64,7 +64,7 @@ footer a:focus {
   display: none;
 }
 
-/*────────────────────────────────────Presentation────────────────────────────────*/
+/*────────────────────────────────────About me section────────────────────────────────*/
 .flex-container-center {
   display: flex;
   flex-direction: column;
@@ -230,7 +230,7 @@ blockquote {
   border: 1px solid #804a6a;
   color: #804a6a;
 }
-/*______________________________contact section_______________________*/
+/*______________________________Contact section_______________________*/
 .contact-section {
   display: flex;
   justify-content: center;
@@ -334,7 +334,7 @@ input {
   padding: 10px;
 }
 
-/*────────────────────────────────────footer────────────────────────────────*/
+/*────────────────────────────────────Footer────────────────────────────────*/
 footer {
   background-color: #804a6a;
   padding: 60px;
