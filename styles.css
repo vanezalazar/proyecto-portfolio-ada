@@ -77,6 +77,7 @@ footer a:focus {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .aboutme-text {
   display: flex;
   flex-direction: column;
@@ -88,7 +89,7 @@ footer a:focus {
   margin-top: 100px;
   color: #f89679;
   font-weight: bolder;
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .aboutme-section-title {
@@ -98,6 +99,7 @@ footer a:focus {
   color: #804a6a;
   font-weight: bolder;
 }
+
 .button {
   background-color: #f9ab94;
   padding: 10px;
@@ -115,20 +117,17 @@ footer a:focus {
 .aboutme-img {
   width: 350px;
   height: 350px;
+  padding: 20px;
   border-radius: 50%;
 }
 /*────────────────────────────────────Skills section────────────────────────────────*/
 .skill-section {
   align-items: center;
   margin-top: 50px;
-  text-align: center;
 }
 
 .skill-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 50%; 
+  width: 50%;
 }
 .skill-text p {
   text-align: center;
@@ -145,6 +144,10 @@ footer a:focus {
 }
 
 .skill-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 250px;
   margin: 15px;
   padding: 60px;
@@ -206,12 +209,12 @@ blockquote {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 80%;
+  width: 100%;
 }
 
 .project-card {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  padding: 40px;
   background-color: white;
   color: #100c31;
   border-radius: 10px;
@@ -221,7 +224,7 @@ blockquote {
 }
 
 .project-card-img {
-  width: 250px;
+  width: 300px;
   height: 200px;
 }
 
@@ -257,9 +260,8 @@ blockquote {
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-    padding: 60px;
-    margin: 50px;
-    
+  padding: 60px;
+  margin: 50px;
 }
 .social-media-links-container {
   display: flex;
@@ -298,7 +300,6 @@ blockquote {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /*padding-left: 20px;*/
   width: 50%;
 }
 
@@ -362,3 +363,127 @@ footer p {
   text-align: center;
 }
 
+/*────────────────────────────────────Media queries────────────────────────────────*/
+@media (max-width: 980px) {
+  .aboutme-section {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .aboutme-section .button {
+    align-self: center;
+  }
+
+  .project-card-img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .social-media-links-container,
+  .contact-form-container {
+    width: 100%;
+  }
+
+  .social-media-links {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 824px) {
+  .project-card-container {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 712px) {
+  .nav {
+    display: none;
+  }
+
+  .footer-bar {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .skill-card {
+    width: 150px;
+    height: 150px;
+    padding: 40px;
+  }
+  
+  .skill-text,
+  .project-text {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 540px) {
+  .aboutme-section-title {
+    font-size: 40px;
+  }
+
+  .aboutme-img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .card-description {
+    font-size: 12px;
+  }
+  .quote-section {
+    padding: 50px;
+  }
+
+  blockquote {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .social-media-links {
+    flex-direction: column;
+  }
+
+  .contact-title {
+    font-size: 34px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-name-lastname-container {
+    flex-direction: column;
+  }
+
+  .skill-card {
+    width: 120px;
+    height: 120px;
+    padding: 30px;
+    margin: 10px;
+  }
+  .skill-card-icon {
+    font-size: 60px;
+  }
+
+  .social-media-links a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 362px) {
+  .section-title {
+    font-size: 32px;
+  }
+  .quote-firm {
+    font-size: 16px;
+  }
+}
