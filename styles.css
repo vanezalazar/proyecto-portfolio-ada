@@ -195,26 +195,29 @@ blockquote {
 /*────────────────────────────────────Projects section────────────────────────────────*/
 .project-section {
   align-items: center;
-  margin: 0px 80px;
+  /*margin: 0px 80px;*/
 }
 
 .project-text {
   width: 50%;
 }
+
 .project-text p {
   text-align: center;
   margin: 30px;
 }
+
 .project-card-container {
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
 }
 
 .project-card {
-  width: 100%;
-  padding: 40px;
+  width: 300px;
+  height: 250px;
+  padding: 30px;
   background-color: white;
   color: #100c31;
   border-radius: 10px;
@@ -224,8 +227,9 @@ blockquote {
 }
 
 .project-card-img {
-  width: 300px;
+  width: 200px;
   height: 200px;
+  padding: 10px;
 }
 
 .project-card:hover {
@@ -373,7 +377,39 @@ footer p {
   outline: none;
 }
 /*────────────────────────────────────Media queries────────────────────────────────*/
-@media (max-width: 980px) {
+
+@media screen and ( max-width: 1670px) {
+.project-card-container {
+      width: 75%;
+  }
+  
+}
+@media screen and ( max-width: 1320px) {
+.project-card-container {
+      width: 70%;
+  }
+  
+}
+
+@media screen and (max-width: 1280px){
+  .project-card-container {
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 1150px){
+  .project-card-container {
+    width: 90%;
+}
+}
+
+@media screen and (max-width: 998px){
+  .project-card-container {
+    width: 95%;
+}
+}
+
+@media screen and (max-width: 980px) {
   .aboutme-section {
     flex-direction: column;
     justify-content: center;
@@ -383,12 +419,7 @@ footer p {
   .aboutme-section .button {
     align-self: center;
   }
-
-  .project-card-img {
-    width: 250px;
-    height: 250px;
-  }
-
+  
   .contact-container {
     flex-direction: column;
     justify-content: flex-start;
@@ -407,13 +438,25 @@ footer p {
   }
 }
 
-@media (max-width: 824px) {
+@media screen and (max-width: 950px){
   .project-card-container {
-    justify-content: center;
+    width: 70%;
   }
 }
 
-@media (max-width: 712px) {
+@media screen and (max-width: 870px){
+  .project-card-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 780px){
+  .project-card-container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 712px) {
   .nav {
     display: none;
   }
@@ -422,8 +465,21 @@ footer p {
     display: none;
   }
 }
+@media screen and (max-width: 680px){
+  .project-card-container {
+    justify-content: center;
+  }
+  .project-card{
+    width: 300px;
+    height: 300px;
+  }
+  .project-card-img{
+    width: 250px;
+    height: 250px;
+  }
+}
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .skill-card {
     width: 150px;
     height: 150px;
@@ -437,7 +493,7 @@ footer p {
   }
 }
 
-@media (max-width: 540px) {
+@media screen and (max-width: 540px) {
   .aboutme-section-title {
     font-size: 40px;
   }
@@ -468,7 +524,7 @@ footer p {
   }
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .input-name-lastname-container {
     flex-direction: column;
   }
@@ -488,10 +544,20 @@ footer p {
   }
 }
 
-@media (max-width: 362px) {
+@media screen and (max-width: 362px) {
   .section-title {
     font-size: 32px;
   }
+
+  .project-card{
+    width: 250px;
+    height: 250px;
+  }
+  .project-card-img{
+    width: 200px;
+    height: 200px;
+  }
+
   .quote-firm {
     font-size: 16px;
   }
