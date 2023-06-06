@@ -94,6 +94,7 @@ textarea:focus,
 
 .aboutme-section-title {
   font-size: 50px;
+  font-family: "Mogra", cursive;
   font-style: italic;
   font-weight: bold;
   color: #804a6a;
@@ -369,44 +370,42 @@ footer p {
   color: white;
   text-align: center;
 }
-.footer-links a:focus .social-media-icon{
+.footer-links a:focus .social-media-icon {
   outline: none;
   box-shadow: 0px 0px 9px 3px #f9977b;
 }
-.footer-links a:focus{
+.footer-links a:focus {
   outline: none;
 }
 /*────────────────────────────────────Media queries────────────────────────────────*/
 
-@media screen and ( max-width: 1670px) {
-.project-card-container {
-      width: 75%;
+@media screen and (max-width: 1670px) {
+  .project-card-container {
+    width: 75%;
   }
-  
 }
-@media screen and ( max-width: 1320px) {
-.project-card-container {
-      width: 70%;
+@media screen and (max-width: 1320px) {
+  .project-card-container {
+    width: 70%;
   }
-  
 }
 
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 1280px) {
   .project-card-container {
     width: 90%;
-}
+  }
 }
 
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1150px) {
   .project-card-container {
     width: 90%;
-}
+  }
 }
 
-@media screen and (max-width: 998px){
+@media screen and (max-width: 998px) {
   .project-card-container {
     width: 95%;
-}
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -419,7 +418,7 @@ footer p {
   .aboutme-section .button {
     align-self: center;
   }
-  
+
   .contact-container {
     flex-direction: column;
     justify-content: flex-start;
@@ -438,19 +437,19 @@ footer p {
   }
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
   .project-card-container {
     width: 70%;
   }
 }
 
-@media screen and (max-width: 870px){
+@media screen and (max-width: 870px) {
   .project-card-container {
     width: 80%;
   }
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px) {
   .project-card-container {
     width: 90%;
   }
@@ -465,15 +464,15 @@ footer p {
     display: none;
   }
 }
-@media screen and (max-width: 680px){
+@media screen and (max-width: 680px) {
   .project-card-container {
     justify-content: center;
   }
-  .project-card{
+  .project-card {
     width: 300px;
     height: 300px;
   }
-  .project-card-img{
+  .project-card-img {
     width: 250px;
     height: 250px;
   }
@@ -485,7 +484,7 @@ footer p {
     height: 150px;
     padding: 40px;
   }
-  
+
   .skill-text,
   .project-text {
     width: 100%;
@@ -549,11 +548,11 @@ footer p {
     font-size: 32px;
   }
 
-  .project-card{
+  .project-card {
     width: 250px;
     height: 250px;
   }
-  .project-card-img{
+  .project-card-img {
     width: 200px;
     height: 200px;
   }
