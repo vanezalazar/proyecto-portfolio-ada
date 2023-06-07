@@ -24,10 +24,10 @@ El diseño del sitio web está basado en el siguiente [diseño](https://frontend
 
 ## Secciones
 El portfolio se divide en 4 secciones 
-- Hola (acerca de mí) : una breve introducción acerca de mí y mis intereses.
-- Conocimientos : en esta sección, se puede ver una grilla con los conocimientos adquiridos a la largo de la cursada.
-- Projectos: en esta sección podrás encontrar una grilla de los proyectos que iré desarrollando.
-- Contacto : en esta sección se encuentran mis datos de contacto y también se incluye un formulario de contacto para que puedas comunicarte conmigo.
+- **Hola (acerca de mí)** : una breve introducción acerca de mí y mis intereses.
+- **Conocimientos** : en esta sección, se puede ver una grilla con los conocimientos adquiridos a la largo de la cursada.
+- **Projectos**: en esta sección podrás encontrar una grilla de los proyectos que iré desarrollando.
+- **Contacto** : en esta sección se encuentran mis datos de contacto y también se incluye un formulario de contacto para que puedas comunicarte conmigo.
 
 ## Tecnologías
 - HTML5
