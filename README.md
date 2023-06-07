@@ -15,7 +15,7 @@ Este es mi portfolio personal, proyecto del primer módulo HTML5 y CSS3, para el
 
 ## Previsualización 
 
-![Texto alternativo](images/portfolio-preview(1).gif)
+![Texto alternativo](images/mi-portfolio.jpg)
 
 ## Sobre el sitio web
 
